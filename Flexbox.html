@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webpage using flexbox</title>
+        <style>
+            .container{
+                display: flex;
+                width: 500px;
+                background-color: #25384B;
+                padding: 20px;
+            }
+            .left-container{
+                width:300px;
+                background-color: #A3CFCC;
+                height: 320px;
+            }
+            .right-container{
+                width: 300px;
+                background-color: #f7cfb6;
+                height: 320px;
+            }
+            .child-element{
+                width: 240px;
+                height: 100px;
+                background-attachment: #0d5374;
+                box-sizing:border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-container">left-container</div>
+            <div class="right-container">
+                <div class="child-element">
+                     Banner1
+                </div>
+                <div class="child-element">
+                     Banner2
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
